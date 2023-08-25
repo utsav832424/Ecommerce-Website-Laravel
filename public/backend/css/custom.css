@@ -1,0 +1,22 @@
+.pagination li.page-item, .dropdown-menu .dropdown-item {
+    cursor: pointer;
+}
+.sizebox-sections {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#product_image_preview_section, .selectColorImgPreviewSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+#product_image_preview_section img, .selectColorImgPreviewSection img {
+    width: 100px;
+    height: 100px;
+}
+.btnCenter {
+    display: flex;
+    justify-content: end;
+}
